@@ -16,8 +16,13 @@ The function should:
 */
 
 
-function createMenuItem(/*Your code here*/){
-  /*Your code here*/
+function createMenuItems(name,price,category) {
+  const baconStrips = {
+    name: 'bacon',
+    price: 3,
+    category: 'sides'
+  };
+  return baconStrips;
 }
 
 
